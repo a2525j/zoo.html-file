@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thing</title>
+</head>
+<style>
+    a:link {
+        color: rgb(131, 7, 247);
+        background-color: transparent;
+        text-decoration: none;
+}
+        
+    a:visited {
+        color: rgb(194, 95, 192);
+        background-color: transparent;
+        text-decoration: none;
+}
+        
+    a:hover {
+        color: rgb(131, 79, 126);
+        background-color: transparent;
+        text-decoration: underline;
+}
+    a:active {
+        color: rgb(236, 22, 143);
+        background-color: transparent;
+        text-decoration: underline;
+    }
+    body {
+        background-color:rgb(179, 174, 124);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-image: url(/wildlife\ thumbnail.webp);
+    }
+    .homescreen {
+        background-color:rgb(248, 244, 234);
+        width: 100%;
+        float: left;
+        border: 2px solid rgb(201, 207, 179);
+        border-radius: 5px;
+        color:black;
+        font-family:'Courier New', Courier, monospace;
+        padding: 3px;
+        border-left: 7px solid rgb(228, 216, 156);
+        border: 1px solid rgb(239, 223, 5);
+    }
+    .top-page-container {
+        background-color: rgb(217, 226, 164);
+        border: 1px solid rgb(5, 8, 3);
+}
+    .top-page {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 10px;
+        background-color:rgb(239, 244, 164);
+        width: 20%;
+        padding: 5px;
+        border-radius: 10px;
+        text-align: center;
+        border: 1px solid black;
+}
+    .search-bar {
+        width: 100%;
+        border-radius: 4px;
+}
+    .wildlife-thumbnail {
+        width: 50%;
+        border: 4px solid rgb(145, 145, 207);
+        border-radius: 8px;
+        padding: 4px;
+        float: left;
+        border-left: 7px solid rgb(104, 132, 207);
+        border-collapse: separate;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+}
+    .text{
+        float:middle;
+        width:50%
+}
+    .animalright {
+        background-color:antiquewhite;
+        width: 50%;
+        border: 4px solid rgb(122, 122, 138);
+        border-radius: 8px;
+        padding: 4px;
+        float: right;
+        border-left: 7px solid rgb(96, 101, 113);
+}
+    .zoo-gallery {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 10px;
+}
+    .zoo-gallery-container {
+        background-color:bisque;
+        width: 100%;
+        float: center;
+        border-radius: 8px;
+}
+    .zoo-gallery-title {
+        text-align: center;
+        background-color:rgb(167, 158, 144);
+}
+    .funfact {
+        background-color:rgb(174, 169, 98);
+        border: 1px solid black;
+        border-radius: 8px;
+        padding: 2px;
+}
+    .animal img {
+        width: 100px;
+        height: 100px;
+        border: 2px solid black;
+        border-radius: 8px;
+        padding: 8px;
+}
+    .animal img {
+       object-fit: over;
+}
+    .animal img:hover {
+       
+        transform: scale(1.05);
+        transition: 0.3s;
+}
+    @media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .rightside, .menu2 {
+        width: 100%;
+  }
+}
+    li {
+        float:left;
+        width: 25%;
+}
+    li a {
+        display:block;
+        color:rgb(214, 185, 124);
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+}
+    ul {
+        list-style-type:none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:rgb(227, 212, 162);
+}
+    .thelink a {
+        background-color:rgb(212, 233, 238);
+
+    }
+    .linkcontain {
+    background-color:rgb(212, 233, 238);
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+    .introduction {
+    background-color:rgb(204, 206, 116);
+    text-align: center;
+}
+    .map-container {
+    background-color:bisque
+}
+    .map-title {
+    text-align: center;
+    background-color:rgb(156, 184, 113);
+    width: 100%;
+}
+    .tab-container {
+    background-color:blanchedalmond;
+    
+    }
+    .tab {
+        text-align: right;
+        width: 80%;
+        float: left;
+        background-color:bisque;
+        padding: 4px;
+    }
+</style>
+<title>Franklin Zoo</title>
+<link rel="icon" type="Image/x-icon" href="images/horse.jpg">
+<body>
+<!--add map under directions with view map link and des -->
+<!--another row buttons purchase tickets, become staff/member, schools and groups, add logo at bottom inside a box/footnote, add social media, and quote in end grateful note, put animals at the end. -->
+
+<Header>
+     
+<div class="top-page-container">
+    <div class="top-page">
+ <h3 button onclick="window.location.href='#'">Donate</button></h3>
+</div>
+</div>  
+    
+
+
+<h1 style="background-color:rgb(211, 220, 149); width: 100%; text-align: left; padding: 6px; border: 1px solid black; border-radius: 6px">Welcome to Franklin Park Zoo</h1>
+<img src="/zoo/images/franklinzoo.gif"alt="franklinzoologo" width="30%" height="30%">
+<br>
+<br>
+<br>
+<button style="background-color:rgb(240, 233, 159); float: center;" onclick="document.getElementById('aboutzoo')">Watch video</button>
+<br>
+<iframe id="aboutzoo" src="https://www.bing.com/videos/riverview/relatedvideo?q=about+zoos&&mid=5B034B01C34D61D269A25B034B01C34D61D269A2&churl=https%3a%2f%2fwww.youtube.com%2fchannel%2fUCuj6W0sIXIA1p1sBlSSPtdw&mmscn=stvo&mcid=41A58444D41B408E873F7E76C8D6A00C&FORM=VRDGAR" width="600" height="400"frameborder="10" title="About zoos"Watch video></iframe>
+<div class="thelink">
+<h2>Our links</h2>
+<div class="linkcontain">
+<a href="#" target="_blank">Franklin Zoo</a> 
+<a href="#" target="_blank">History</a> 
+</div>
+</div>
+    <br>
+</Header>
+<section>
+
+<div style="overflow:auto">
+<div class="homescreen">
+<h1 style="font-size: 40px"><b>Visit our Zoo</b></h1>
+<p>123 Franklin Rd </p>
+<p>call number: 123-456-7890</p>
+<a href="#" target="_blank">Get Directions</a>
+<br>
+<br>
+<ul>
+    <li><button style="border-radius: 5px; width: 100%; background-color:rgb(167, 209, 216); color:rgb(11, 14, 11); border: 2px solid rgb(34, 149, 178)" onclick="window.location.href='/homepage.html'">Buy Tickets</button></li> 
+    <li><button style="border-radius: 5px; width: 100%; background-color:rgb(167, 209, 216); color:rgb(11, 14, 11); border: 2px solid rgb(34, 149, 178)" onclick="window.location.href='/homepage.html'">About us</button></li>
+    <li><button style="border-radius: 5px; width: 100%; background-color:rgb(167, 209, 216); color:rgb(11, 14, 11); border: 2px solid rgb(34, 149, 178)" onclick="window.location.href='/homepage.html'">Schedule</button></li>
+    <li><button style="border-radius: 5px; width: 100%; background-color:rgb(167, 209, 216); color:rgb(11, 14, 11); border: 2px solid rgb(34, 149, 178)" onclick="window.location.href='/homepage.html'">Email us</button></li>
+</ul>
+</div>
+</div>
+</section>
+<br>
+<p><h2 style="background-color:blanchedalmond; width: 30%; border-radius: 8px; text-align: center; padding: 4px;">Search</h2></p>
+<div class="search-bar"> 
+<div class="homescreen"> <input type="" width="100%"><button>Search</button></div>
+</div>
+<br>
+<br>
+
+<div class ="text">
+<h2 style="text-align: center; background-color:antiquewhite; border-radius: 8px; border: 1px solid black">About us</h2>
+<p style="padding: 4px; text-align: center; background-color:antiquewhite; border-radius: 8px; border: 1px solid black">We facilitate our animals within safe enclosures for exhibition, showcasing their natural behaviors and habitats.</p>
+</div>
+</div>
+<br>
+<div class="map-title">
+    <h1>Our Map</h1>
+</div>
+<div class="map-container">
+
+<img src="/zoo/images/zoomap.jpg" alt="map" width="100%" height="100%">
+</div>
+
+
+<div class="zoo-gallery-container">
+<div class="zoo-gallery-title">
+<h1>Animal Gallery</h1>
+</div>
+
+<div class="zoo-gallery">
+<h1 style="text-align: center; float: center;"></h1>
+    
+<div class="animal">
+<img src="/zoo/images/tiger.jpg" alt="" width="100" height="100" style="padding: 0%;">
+<p style="background-color:burlywood; border: 1px solid black; border-radius: 8px; padding: 2px; text-align: center;">tiger</p>
+</div>
+<div class="animal">
+<img src="/zoo/images/Giraffe.jpg" alt="" width="100" height="100" style="padding: 0%;">
+<p style="background-color:burlywood; border: 1px solid black; border-radius: 8px; padding: 2px; text-align: center;">Giraffe</p>
+</div>
+<div class="animal">
+<img src="/zoo/images/hippo.jpg" alt="" width="100" height="100" style="padding: 0%;">
+<p style="background-color:burlywood; border: 1px solid black; border-radius: 8px; padding: 2px; text-align: center;">Hippo</p>
+</div>
+<div class="animal">
+<img src="/zoo/images/Lion.jpg" alt="" width="100" height="100" style="padding: 0%;">
+<p style="background-color:burlywood; border: 1px solid black; border-radius: 8px; padding: 2px; text-align: center;">Lion</p>
+</div>
+<div class="animal">
+<img src="/zoo/images/Panda.jpg" alt="" width="100" height="100" style="padding: 0%;">
+<p style="background-color:burlywood; border: 1px solid black; border-radius: 8px; padding: 2px; text-align: center;">Panda</p>
+</div>
+<div class="animal">
+<img src="/zoo/images/elephant.jpg" alt="" width="100" height="100" style="padding: 0%;">
+<p style="background-color:burlywood; border: 1px solid black; border-radius: 8px; padding: 2px; text-align: center;">Elephant</p>
+</div>
+<div class="animal">
+<img src="/zoo/images/Sloth.jpg" alt="" width="100" height="100" style="padding: 0%;">
+<p style="background-color:burlywood; border: 1px solid black; border-radius: 8px; padding: 2px; text-align: center;">Sloth</p>
+</div>
+<div class="animal">
+<img src="/zoo/images/Red Panda.jpg" alt="" width="100" height="100" style="padding: 0%;">
+<p style="background-color:burlywood; border: 1px solid black; border-radius: 8px; padding: 2px; text-align: center;">Red Panda</p>
+</div>
+</div>
+</div>
+
+<div></div>
+<div class="introduction">
+<h1>Fun facts</h1>
+<div class="fav-animal">
+</div>
+</div>
+
+<div class="funfact"><button style="background-color:rgb(212, 205, 122)" id="tiger-funfact" onclick="showfunfact1()">Click for a fun fact about Tigers</button></div>
+  <script>
+    function showfunfact1() {
+        document.getElementById("tiger-funfact").innerHTML = "Tigers are the largest cat species in the world.";
+    }
+  </script>
+</div>
+
+<div class="funfact"><button style="background-color:rgb(212, 205, 122)" id="elephant-funfact" onclick="showfunfact2('elephant')">Click for a fun fact about Elephants</button></div>
+  <script>
+    function showfunfact2() {
+        document.getElementById("elephant-funfact").innerHTML = "Elephants are the largest land animals on Earth.";
+    }
+  </script>
+</div>
+
+<div class="funfact"><button style="background-color:rgb(212, 205, 122)" id="panda-funfact" onclick="showfunfact3('panda')">Click for a fun fact about Pandas</button></div>
+  <script>
+    function showfunfact3() {
+        document.getElementById("panda-funfact").innerHTML = "Pandas are native to China and are known for their distinctive black and white fur.";
+    }
+  </script>
+</div>
+<div class="funfact"><button style="background-color:rgb(212, 205, 122)" id="sloth-funfact" onclick="showfunfact4('sloth')">Click for a fun fact about Sloths</button></div>
+  <script>
+    function showfunfact4() {
+        document.getElementById("sloth-funfact").innerHTML = "Sloths are slow-moving mammals that are native to Central and South America.";
+    }
+  </script>
+</div>
+
+<div class="funfact"><button style="background-color:rgb(212, 205, 122)" id="Giraffe-funfact" onclick="showfunfact5('giraffe')">Click for a fun fact about Giraffes</button></div>
+  <script>
+    function showfunfact5() {
+        document.getElementById("Giraffe-funfact").innerHTML = "Giraffes are the tallest mammals on Earth.";
+    }
+  </script>
+</div>
+
+<div class="funfact"><button style="background-color:rgb(212, 205, 122)" id="Red Panda-funfact" onclick="showfunfact6('redpanda')">Click for a fun fact about Red Pandas</button></div>
+  <script>
+    function showfunfact6() {
+        document.getElementById("Red Panda-funfact").innerHTML = "Red pandas are small, arboreal mammals that are native to the temperate forests of the Himalayas.";
+    }
+  </script>
+</div>
+
+<div class="funfact"><button style="background-color:rgb(212, 205, 122)" id="Hippo-funfact" onclick="showfunfact7('hippo')">Click for a fun fact about Hippos</button></div>
+  <script>
+    function showfunfact7() {
+        document.getElementById("Hippo-funfact").innerHTML = "Hippos are large, semi-aquatic mammals that are native to Africa.";
+    }
+  </script>
+</div>
+
+<div class="funfact"><button style="background-color:rgb(212, 205, 122)" id="Lion-funfact" onclick="showfunfact8('lion')">Click for a fun fact about Lions</button></div>
+  <script>
+    function showfunfact8() {
+        document.getElementById("Lion-funfact").innerHTML = "Lions are large cats that are native to Africa.";
+    }
+  </script>
+</div>
+<br>
+<br>
+
+<div class="tab-container">
+<div class="tab">
+<ul>
+    <h1><a href="#">Purchase Tickets</a></h1> 
+    <img src="/Images/RightArrow.png" alt="" width="10%">
+</ul>
+</div>
+
+<div class="tab">
+    <ul>
+    <h1><a href="#">Application</a></h1> 
+    <img src="/Images/RightArrow.png" alt="" width="10%">
+    </ul>
+    </div>
+
+    <div class="tab">
+        <ul>
+        <h1><a href="#">Schools & Group</a></h1> 
+        <img src="/Images/RightArrow.png" alt="" width="10%">
+        </ul>
+        </div>
+</div>
+</body>
+</html>
